@@ -1,0 +1,57 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+	margin:0;
+	padding:0;
+}
+.navbar {
+    display:flex;
+    width:100%;
+}
+
+.jumbotron {
+    background-color:white;
+    padding:100px;
+    margin:0px auto;
+    width:700px;
+}
+.display-0 {
+    font-weight:200;
+}
+.lead {
+    font-size:20px;
+}
+.box {
+    width:100%;
+    padding:2%;
+}
+.album {
+    margin-left:7%;
+    margin-right:7%;
+}
+.carousel {
+    margin-left:7%;
+    margin-right:7%;
+    text-align:center;
+}
+
+.foot {
+    background-color:#55595c;
+    color:lightslategray;
+    padding:12px;
+}
+.featurette{
+    height:450px;    
+}
+
+.featurette-image {
+    float:right;
+}
+@media (max-width:768px){
+  
+}
+/*@media (max-width:768px){
+    .featurette-img{
+        clear:left;
+    }
+}*/
